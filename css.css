@@ -1,0 +1,59 @@
+h1 {
+    font-family: "Times new roman", times, "trebuchet ms", serif;
+    font-size: 2em;
+    text-align: center;
+}
+body {
+    overflow: auto;
+    margin: 0 8px;
+}
+img {
+    vertical-align: bottom;
+}
+
+#box {
+    border-style: ridge groove groove ridge;
+    border-width: .99em;
+    border-color: rgb(212,22,10);
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+#contact {
+    text-align: center;
+    background-color: rgb(255,231,55);
+    padding: .5em 0em;
+    margin: 0;
+    width: 50em;
+    position: relative;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+#content {
+    padding: 0em 1em;
+    min-height: 20em;
+    font-family: arial, "comic sans ms", calibri, sans-serif;
+}
+#content p {
+    margin: 0;
+}
+li a {
+    text-decoration: none;
+    color: #505050;
+}
+li a:hover {
+    color: black;
+}
+#menuimg {
+    width: 800px;
+    padding: 0 0 1em 0;
+}
+.bigname {
+    font-family: "Times new roman", times, "trebuchet ms", serif;
+    font-size: 1.5em;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
