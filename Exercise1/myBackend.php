@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-echo "<table border=\"1\" style='border-collapse: collapse'>";
+echo "<table style='font-size:.5em;'>";
 for ($i=1; $i < 100; $i++)
 {
   echo "<tr> \n";
