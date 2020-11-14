@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST["submit"]))
+/*if (isset($_POST["submit"]))
 {
   $question1 = $_POST["engineering"];
   $question2 = $_POST["Italy"];
@@ -66,5 +66,6 @@ if (isset($_POST["submit"]))
   echo "&emsp;";
   echo "Correct Answer: C: markiplier<br />";
 
-}
+}*/
+echo "hello world";
  ?>
