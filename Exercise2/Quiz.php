@@ -9,8 +9,9 @@
 
 
   echo "<span style='font-size:.8em;'>";
-/*
+
   echo "Question 1: what engineering major is the best<br />";
+  /*
   if ($question1 == "A: Computer Science")
   {
     $correctnum++;
