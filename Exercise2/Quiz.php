@@ -22,8 +22,6 @@
   echo "&emsp;";
   echo "Correct Answer: A: Computer Science<br />";
 
-  echo "num $correctnum";
-  /*
   echo "<br />";
   echo "Question 2: What was Italy purpose in WW2?:<br />";
   if ($question2 == "B: Flipping sides")
@@ -31,7 +29,7 @@
     $correctnum++;
   }
   echo "&emsp;";
-  echo "You answered:" $question2 "<br />" ;
+  echo "You answered: $question2 <br />" ;
   echo "&emsp;";
   echo "Correct Answer: B: Flipping sides<br />";
 
@@ -42,7 +40,7 @@
     $correctnum++;
   }
   echo "&emsp;";
-  echo "You answered:" $question3 "<br />" ;
+  echo "You answered: $question3 <br />" ;
   echo "&emsp;";
   echo "Correct Answer: A: minecraft<br />";
 
@@ -53,7 +51,7 @@
     $correctnum++;
   }
   echo "&emsp;";
-  echo "You answered:" $question4 "<br />" ;
+  echo "You answered: $question4 <br />" ;
   echo "&emsp;";
   echo "Correct Answer: D: what<br />";
 
@@ -64,10 +62,10 @@
     $correctnum++;
   }
   echo "&emsp;";
-  echo "You answered:" $question5 "<br />" ;
+  echo "You answered: $question5 <br />" ;
   echo "&emsp;";
   echo "Correct Answer: C: markiplier<br />";
-*/
+
 
 echo "hello world";
  ?>
