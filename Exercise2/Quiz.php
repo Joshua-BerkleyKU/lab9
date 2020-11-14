@@ -16,9 +16,10 @@
   {
     $correctnum++;
   }
-  /*
+
   echo "&emsp;";
-  echo "You answered:" $question1 "<br />" ;
+  echo "You answered: $question1 <br />" ;
+  /*
   echo "&emsp;";
   echo "Correct Answer: A: Computer Science<br />";
 
