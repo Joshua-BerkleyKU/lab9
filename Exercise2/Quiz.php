@@ -19,11 +19,11 @@
 
   echo "&emsp;";
   echo "You answered: $question1 <br />" ;
-  /*
   echo "&emsp;";
   echo "Correct Answer: A: Computer Science<br />";
 
-
+  echo "num $correctnum";
+  /*
   echo "<br />";
   echo "Question 2: What was Italy purpose in WW2?:<br />";
   if ($question2 == "B: Flipping sides")
