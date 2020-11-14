@@ -66,6 +66,7 @@
   echo "&emsp;";
   echo "Correct Answer: C: markiplier<br />";
 
-
-echo "hello world";
+  echo "<br /> You scored $correctnum/5 correct<br />";
+  $score = $correctnum * 20;
+  echo "Score: $score%";
  ?>
