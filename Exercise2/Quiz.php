@@ -7,7 +7,7 @@
 
   $correctnum = 0 ;
 
-
+  /*
   echo "<span style='font-size:.8em;'>";
 
   echo "Question 1: what engineering major is the best<br />";
@@ -19,6 +19,7 @@
   echo "You answered:" $question1 "<br />" ;
   echo "&emsp;";
   echo "Correct Answer: A: Computer Science<br />";
+
 
   echo "<br />";
   echo "Question 2: What was Italy purpose in WW2?:<br />";
@@ -63,7 +64,7 @@
   echo "You answered:" $question5 "<br />" ;
   echo "&emsp;";
   echo "Correct Answer: C: markiplier<br />";
-
+*/
 
 echo "hello world";
  ?>
