@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercise 3</title>
+		<link rel='stylesheet' type='text/css' href='style.css' />
+	</head>
+	<body>
+		<form action='customerBackend.php' method='post'>
+			<fieldset id='userid'>
+				<legend><span>User Info</span></legend>
+
+					Name:<input type='email' name='email' placeholder='name@domain.com' required/>
+
+					Password: <input type='password' name='password' required/>
+
+			</fieldset>
+			<fieldset>
+				<legend><span>Shipping:</span></legend>
+
+					<input type='radio' name='ship' value='Free 7 day' checked />Free 7 day
+					<input type='radio' name='ship' value='$50.00 over night' />$50.00 over night
+					<input type='radio' name='ship' value='$5.00 three day' />$5.00 three day
+
+			</fieldset>
+			<fieldset>
+				<legend><span>Products:</span></legend>
+
+					<input type='number' name='minecraft' min='0' value='0' required /> minecraft ($20 each)
+
+					<input type='number' min='0' value='0' name='Computerparts' required /> Computer parts ($100 each)
+
+					<input type='number' min='0' value='0' name='steam' required />steam  ($30 each)
+
+			</fieldset>
+			<fieldset id='buttonfield'>
+				<input type='submit' class='buttonn' />
+				<input type='reset' class='buttonn' />
+			</fieldset>
+		</form>
+		<script src='formChecker.js'></script>
+	</body>
+</html>
