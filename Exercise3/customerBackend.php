@@ -59,6 +59,7 @@
         echo "<td>$50</td>";
         echo "<td>$50</td>";
       echo "</tr>";
+      $temp4 = $temp4 + 50;
     }
     if ($shipping == "$5.00 three day") {
       echo "<tr>";
@@ -67,6 +68,7 @@
         echo "<td>$5</td>";
         echo "<td>$5</td>";
       echo "</tr>";
+      $temp4 = $temp4 + 5;
     }
     echo "<tr>";
       echo "<td colspan='3'>Total:</td>";
