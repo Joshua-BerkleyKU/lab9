@@ -1,0 +1,13 @@
+.background_box
+{
+    height: 110%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("main_background.jpg");
+    opacity: 50%;
+    position: fixed;
+    top: 40px;
+    z-index: -1;
+}
