@@ -1,16 +1,12 @@
-.background_box
+body
 {
-    height: 110%;
-    width: 100%;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-image: url("main_background.jpg");
-    opacity: 50%;
     position: fixed;
-    top: 40px;
-    z-index: -1;
 }
+
+
+
 
 table {
 	width: 90%;
