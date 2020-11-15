@@ -6,7 +6,15 @@ body
 }
 
 
+fieldset
+{
+  background-color: red;
+}
 
+h2
+{
+  color: blue;
+}
 
 table {
 	width: 90%;
@@ -15,17 +23,17 @@ table {
 }
 
 td {
-	border: 1px solid black;
+	border: 1px solid red;
 	padding: 0.25em;
 }
 
 th {
 	padding: .25em;
-	background: rgb(255,231,55);
+	background: blue;
 }
 
 #welcome {
-	border: 5px solid rgb(212,22,10);
+	border: 5px solid green;
 	border-radius: 1em;
 	text-align: center;
 }
