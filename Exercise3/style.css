@@ -1,1 +1,39 @@
+body
+{
+    background-position: center;
+    background-image: url("main_background.jpg");
+    position: fixed;
+}
 
+
+fieldset
+{
+  background-color: red;
+}
+
+h2
+{
+  color: black;
+}
+
+table {
+	width: 90%;
+	margin: 0 auto 1em auto;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid red;
+	padding: 0.25em;
+}
+
+th {
+	padding: .25em;
+	background: blue;
+}
+
+#welcome {
+	border: 5px solid green;
+	border-radius: 1em;
+	text-align: center;
+}
